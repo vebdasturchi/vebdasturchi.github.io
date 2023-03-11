@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header,
+section {
+    padding-top: 58px;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+}
+
+body {
+    background-color: #fff;
+}
+
+.c1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/b.png") no-repeat center;
+    background-size: cover;
+    flex-direction: none;
+}
+
+nav {
+    width: 100%;
+    font-family: Roboto;
+    position: fixed;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    background: linear-gradient(rgba(46, 50, 63, 0.7), rgba(46, 50, 63, 0.7));
+}
+
+a {
+    color: #fff;
+    padding: 5px 10px;
+    transition: all 0.3s;
+}
+
+.box {
+    width: 70%;
+    height: 40%;
+    margin-top: 25%;
+}
+
+.b1 {
+    color: #fff;
+    margin-bottom: 16px;
+    font-size: 50px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.a1 {
+    color: #fff;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.b2 {
+    font-size: 40px;
+    font-family: Roboto;
+    color: #000;
+    text-align: center;
+}
+
+.a2 {
+    font-size: 20px;
+    font-family: Roboto;
+    text-align: center;
+    color: #000;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img7 {
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.box2 {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 10px 17px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.box7 {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 10px 17px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.box8 {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 10px 17px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.a3 {
+    width: 100px;
+    height: 30px;
+    font-family: Roboto;
+    color: #000;
+    text-align: center;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    background-color: antiquewhite;
+    border: none;
+    margin-left: 230px;
+}
+
+.box4 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.img007 {
+    width: 100%;
+    height: 273px;
+}
+
+.img00 {
+    width: 700px;
+    height: 550px;
+}
+
+i {
+    display: none;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+@media screen and (max-width: 375px) {
+    .b1 {
+        font-size: 30px;
+    }
+    .a1 {
+        font-size: 15px;
+    }
+    .b2 {
+        font-size: 30px;
+    }
+    .a2 {
+        font-size: 15px;
+    }
+    .box1 {
+        display: block;
+    }
+    .box2 {
+        width: 330px;
+    }
+    .box7 {
+        width: 330px;
+        margin-top: 30px;
+    }
+    .box8 {
+        width: 330px;
+        margin-top: 30px;
+    }
+    .button {
+        width: 70px;
+    }
+    .box4 {
+        display: block;
+        margin-top: 20px;
+    }
+    .img00 {
+        width: 100%;
+        height: 273px;
+    }
+    .img007 {
+        margin-top: 30px;
+    }
+    i {
+        display: inline-block;
+    }
+    ul {
+        opacity: 0;
+        width: 200px;
+        height: 55vh;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        left: -200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .box1 {
+        display: block;
+    }
+    .img7 {
+        height: 330px;
+    }
+    .button {
+        height: 30px;
+        margin-left: 550px;
+    }
+    .box2 {
+        width: 100%;
+        height: 400px;
+    }
+    .box7 {
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .box8 {
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
+    .button {
+        width: 70px;
+    }
+    .img00 {
+        width: 450px;
+        height: 300px;
+    }
+    .img007 {
+        width: 100%;
+        height: 148px;
+    }
+}
