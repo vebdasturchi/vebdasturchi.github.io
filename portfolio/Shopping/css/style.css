@@ -233,12 +233,15 @@ i {
     .box1 {
         display: block;
     }
+    .box4 {
+        display: block;
+    }
     .img7 {
         height: 330px;
     }
     .button {
+        width: 70px;
         height: 30px;
-        margin-left: 550px;
     }
     .box2 {
         width: 100%;
@@ -254,11 +257,8 @@ i {
         height: 400px;
         margin-top: 30px;
     }
-    .button {
-        width: 70px;
-    }
     .img00 {
-        width: 450px;
+        width: 100%;
         height: 300px;
     }
     .img007 {
@@ -277,7 +277,6 @@ i {
     .button {
         width: 70px;
         height: 30px;
-        margin-left: 100px;
     }
     .box2 {
         width: 100%;
